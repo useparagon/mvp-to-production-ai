@@ -10,5 +10,5 @@ Lastly Managed Sync webhooks ensure that record updates are captured.
 In our second chapter, we deep dive into different permissions strategies for enforcing access control in a RAG pipeline.
 
 Our RAG application is using a managed graph database to check relationships between users and file IDs.
-Access control is done post-retrieval, meaning the check is done after vector embeddings are retrieved from our 
-vector DB.
+Access control is done post-retrieval, meaning the check and filtering is done after vector embeddings 
+are retrieved from our vector DB.
